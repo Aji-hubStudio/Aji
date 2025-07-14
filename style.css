@@ -1,0 +1,43 @@
+body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #0b2948, #51a3fa);
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+
+    .section-title {
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+    }
+
+    .footer {
+      background-color: #0b2948;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    .nav-link.active {
+      font-weight: bold;
+    }
+
+    .blog-card img {
+      max-height: 200px;
+      object-fit: cover;
+    }
+
+    .container img {
+    width: 600px;
+    height: 300px;
+    border: 1px solid #ccc;
+    background-size: cover;
+    background-position: center;
+    }
+
+   .container img:hover {
+    transform: translateY(-5px);
+    }
